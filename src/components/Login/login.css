@@ -5,8 +5,13 @@
 }
 
 section {
-  display: flex;
+  margin: 30px auto;
   justify-content: center;
+  padding-bottom: 44px;
+  font-family: "Roboto", sans-serif;
+
+  padding-bottom: 44px;
+  width: 100%;
 }
 
 .only-tablet-desktop-view {
@@ -18,10 +23,10 @@ section {
 }
 
 .login-main {
-  margin: 79px 52px;
   justify-content: center;
-  padding-bottom: 44px;
-  font-family: "Roboto", sans-serif;
+  margin: 30px auto;
+  max-width: 350px;
+  width: 100%;
 }
 
 .login-page {
@@ -73,12 +78,16 @@ a {
 }
 .facebook-login a {
   margin-top: 3px;
+  font-size: 14px;
 }
 .facebook-login img {
   width: 24px;
 }
 .facebook-login div {
   margin: 15px;
+}
+.forgot-password {
+  padding: 10px;
 }
 
 .register-container {
@@ -91,6 +100,10 @@ a {
 .register-container a {
   font-weight: 600;
   font-size: 14px;
+  margin: 10px;
+}
+
+.register-container p {
   margin: 10px;
 }
 

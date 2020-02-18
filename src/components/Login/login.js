@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./login.css";
+import "./reset.css";
 
 class Login extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class Login extends React.Component {
                   <img src="./img/facebook_logos_PNG19753.png" alt="" />
                   <a href="">Facebook으로 로그인</a>
                 </div>
-                <div>
+                <div className="forgot-password">
                   <a href="">비밀번호를 잊으셨나요?</a>
                 </div>
               </form>
