@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import CommentFeeds from "./CommentFeeds";
 import "./main.css";
 import "./reset.css";
 
@@ -15,7 +16,7 @@ class Main extends React.Component {
               </a>
               <div className="logo-between-line"></div>
               <a href="">
-                <img src="./img/logo_text.png" alt="" class="logo" />
+                <img src="./img/logo_text.png" alt="" className="logo" />
               </a>
             </div>
             <div className="navbar-search">
@@ -35,19 +36,19 @@ class Main extends React.Component {
             </div>
           </div>
         </nav>
-        <div class="contents-wrap">
-          <div class="main-contents-container">
-            <div class="main-contents-title">
+        <div className="contents-wrap">
+          <div className="main-contents-container">
+            <div className="main-contents-title">
               <img src="./img/profile1.jpg" alt="" />
               <p>title</p>
-              <div class="main-contents-title-more">
+              <div className="main-contents-title-more">
                 <img src="./img/more.png" alt="" />
               </div>
             </div>
-            <div class="main-contents-body">
+            <div className="main-contents-body">
               <img src="./img/pizza.jpeg" alt="" />
-              <div class="main-contents-footer">
-                <div class="main-contents-footer_links">
+              <div className="main-contents-footer">
+                <div className="main-contents-footer_links">
                   <img src="./img/heart.png" alt="" />
                   <img src="./img/comment.png" alt="" />
                   <img src="./img/share.png" alt="" />
@@ -56,34 +57,23 @@ class Main extends React.Component {
                   <img src="./img/bookmark.png" alt="" />
                 </div>
               </div>
-              <div class="likes">
-                <p className="likes-p">좋아요 20개</p>
-                <div class="text">
-                  <p>
-                    <a href="">#wework</a>
-                  </p>
-                </div>
-                <div class="comment">
-                  <input type="text" class="comment-input" placeholder="댓글 달기.." />
-                  <button id="comment-post">게시</button>
-                </div>
-              </div>
+              <CommentFeeds/>
             </div>
           </div>
-          <div class="story-feeds">
-            <div class="story-feeds-title">
+          <div className="story-feeds">
+            <div className="story-feeds-title">
               <img src="./img/profile1.jpg" alt="" />
               <span>
                 title<p>title2</p>
               </span>
             </div>
-            <div class="story-feeds-body">
-              <div class="story-feeds-story">
-                <div class="story-feeds-body">
-                  <p class="story-feeds-container">스토리</p>
+            <div className="story-feeds-body">
+              <div className="story-feeds-story">
+                <div className="story-feeds-body">
+                  <p className="story-feeds-container">스토리</p>
                   <span>모두 보기</span>
                   <div>
-                    <ul class="story__story-container">
+                    <ul className="story__story-container">
                       <li>
                         <img src="./img/pizza.jpeg" alt="" />
                         <p>a</p>
@@ -101,25 +91,25 @@ class Main extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="story__story-container">
+            <div className="story__story-container">
               <div>
-                <ul class="story__story-container">
+                <ul className="story__story-container">
                   <p>회원님을 위한 추천</p>
                   <span>모두 보기</span>
                   <li>
                     <img src="./img/pizza.jpeg" alt="" />
                     <p>a</p>
-                    <p class="follow">팔로우</p>
+                    <p className="follow">팔로우</p>
                   </li>
                   <li>
                     <img src="./img/pizza.jpeg" alt="" />
                     <p>a</p>
-                    <p class="follow">팔로우</p>
+                    <p className="follow">팔로우</p>
                   </li>
                   <li>
                     <img src="./img/pizza.jpeg" alt="" />
                     <p>a</p>
-                    <p class="follow">팔로우</p>
+                    <p className="follow">팔로우</p>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import LoginForm from "./LoginForm";
 import "./login.css";
 import "./reset.css";
 
@@ -16,23 +17,7 @@ class Login extends React.Component {
               <img src="./img/logo_text.png" alt="instagram" />
             </h1>
             <div className="form-container">
-              <form action="" id="loginForm">
-                <div>
-                  <input id="getId" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
-                </div>
-                <div>
-                  <input id="getPassword" type="password" placeholder="비밀번호" />
-                </div>
-                <button id="login">로그인</button>
-                <div>또는</div>
-                <div className="facebook-login">
-                  <img src="./img/facebook_logos_PNG19753.png" alt="" />
-                  <a href="">Facebook으로 로그인</a>
-                </div>
-                <div className="forgot-password">
-                  <a href="">비밀번호를 잊으셨나요?</a>
-                </div>
-              </form>
+              <LoginForm />
             </div>
           </div>
           <div className="register-container">

@@ -53,6 +53,11 @@ section {
   opacity: 0.5;
   padding: 9px 0 7px 8px;
 }
+
+.button-active {
+  opacity: 1;
+  background: #3797f0;
+}
 a {
   text-decoration: none;
   font-size: 12px;
