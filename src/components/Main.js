@@ -57,7 +57,7 @@ class Main extends React.Component {
                   <img src="./img/bookmark.png" alt="" />
                 </div>
               </div>
-              <CommentFeeds/>
+              <CommentFeeds />
             </div>
           </div>
           <div className="story-feeds">

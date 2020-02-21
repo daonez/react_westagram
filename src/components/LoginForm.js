@@ -12,6 +12,30 @@ class LoginForm extends React.Component {
     };
   }
 
+  //Notes: Fetch method to get token (Wecode exercise)
+  // handleClick = e => {
+  //   fetch("http://10.58.1.200:8000/account/sign-in", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json"
+  //     },
+  //     body: JSON.stringify({
+  //       email: this.state.id,
+  //       password: this.state.pw
+  //     })
+  //   })
+  //     .then(response => {
+  //       console.log("response1", response);
+  //       return response.json();
+  //     })
+  //     .then(response => {
+  //       console.log("response2", response);
+  //       if (response.token) {
+  //         localStorage.setItem("wecode-token", response.token);
+  //       }
+  //     });
+  // };
+
   handleClick = e => {
     this.setState({
       isToggleOn: !this.state.isToggleOn
@@ -28,7 +52,7 @@ class LoginForm extends React.Component {
 
   render() {
     return (
-      <form action="" id="loginForm">
+      <div action="" id="loginForm">
         <div>
           <input
             id="id"
@@ -56,7 +80,7 @@ class LoginForm extends React.Component {
         <div className="forgot-password">
           <a href="">비밀번호를 잊으셨나요?</a>
         </div>
-      </form>
+      </div>
     );
   }
 }
