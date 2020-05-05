@@ -2,4 +2,4 @@
 
 ## Demo:
 
-[React Instagram](demo/react-insta.gif)
+![React Instagram](demo/react-insta.gif)
