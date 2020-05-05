@@ -10,7 +10,7 @@
 
 ## Demo:
 
-![React Instagram](./demo/demo.gif)
+![React Instagram](https://github.com/daonez/react_westagram/blob/master/src/demo/demo.gif?raw=true)
 
 ### What I learnt
 
