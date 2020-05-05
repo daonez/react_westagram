@@ -26,7 +26,6 @@ class CommentFeeds extends React.Component {
         comment: ""
       });
   };
-  
 
   render() {
     return (
